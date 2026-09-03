@@ -16,7 +16,7 @@ TurtleBlock AI is the current executable form of a longer educational research p
 - **Talk with Turtle:** https://turtleblockai.com/try/
 - **Explore WorldSpec:** https://turtleblockai.com/worldspec/
 - **Read the Turtle Charter:** https://turtleblockai.com/charter/
-- **Read the research lineage:** https://turtleblockai.com/research/
+- **Read the research lineage + ontology:** https://turtleblockai.com/research/
 - **See the build log:** https://turtleblockai.com/build/
 - **Visit Turtle Lab:** https://turtleblockai.com/lab/
 - **Visit the platform repo:** https://github.com/turtleblockai/platform
@@ -91,13 +91,19 @@ The preferred Discord experience is a dedicated **Turtle Lab thread** in which a
 
 ## Dr. Bryan P. Sanders TurtleBlock AI research ontology
 
-The project now includes a formal scholarly knowledge layer:
+The project includes a formal scholarly knowledge layer:
 
 **`Dr_Bryan_P_Sanders_TurtleBlockAI_Taxonomy`**
 
 Public academic language: **the Dr. Bryan P. Sanders TurtleBlock AI research ontology**.
 
-Its foundational layer preserves the original 17 Dedoose codes from Sanders’ 2019 dissertation **exactly as written**:
+This is not an AI-generated taxonomy assembled after the fact. Its foundation comes directly from Sanders’ 2019 Ed.D. dissertation, *Toward a Unified Computer Learning Theory: Critical Techno Constructivism*.
+
+### From dissertation coding to computational ontology
+
+The dissertation used document analysis across selected passages from **John Dewey, Paulo Freire, and Seymour Papert**. The excerpts were imported into **Dedoose**, where a literature-derived code system was applied and later examined through frequencies and code co-occurrences.
+
+The original 17 Dedoose codes are preserved **exactly as written**:
 
 1. Abstractions
 2. Banking Model
@@ -117,7 +123,61 @@ Its foundational layer preserves the original 17 Dedoose codes from Sanders’ 2
 16. Social Impact
 17. Theory
 
-The ontology does not rewrite the dissertation taxonomy. Original terminology, theoretical-precept mappings, source metrics, co-occurrences, and source passages remain a source layer. Later TurtleBlock concepts are added through explicit, versioned relationships.
+That tagging work is useful again. Instead of leaving the dissertation as a static PDF or asking an LLM to infer a theory from hundreds of pages every time, TurtleBlock AI can use the original codes as a **structured scholarly retrieval vocabulary**.
+
+```text
+2019 Dedoose coding
+        ↓
+source passages + precepts + frequencies + co-occurrences
+        ↓
+later Sanders-authored concepts and tools
+        ↓
+Turtle Charter + WorldSpec mappings
+        ↓
+bounded retrieval for Turtle
+```
+
+The ontology does **not** rewrite the dissertation taxonomy. Original terminology, theoretical-precept mappings, source metrics, co-occurrences, and source passages remain a source layer. Later TurtleBlock concepts are added through explicit, versioned relationships.
+
+## Sanders-authored operational tools
+
+The ontology now distinguishes **theory** from **an authored tool for using the theory**.
+
+Sanders’ *Tenets of Critical Techno Constructivism with Suggestions for Operationalizing the Theory* is represented as an authored operational framework with seven **Tenet → Question → Action** structures:
+
+1. **Personal Inquiry**
+2. **Compelling Problem or Question**
+3. **Technology as Tool to Think With**
+4. **Formative Demonstration of Learning**
+5. **Reflection as Learning**
+6. **Social and Cultural Critique**
+7. **Sharing and Collaborating**
+
+This allows Turtle eventually to retrieve not only a theoretical concept such as **Problem Posing Education** or **Shared Democracy**, but also a Sanders-authored pedagogical move that operationalizes it.
+
+That distinction matters:
+
+```text
+Dedoose code ≠ authored tool ≠ later publication ≠ Turtle behavior
+```
+
+They can be connected, but provenance keeps them intellectually separate.
+
+## Longitudinal research lineage
+
+The ontology now also tracks later Sanders-authored concepts such as:
+
+- **Learner as Designer and Producer**
+- **Tune Into and Tap Into Learner Meaning-Making**
+- **Co-construct the Curriculum**
+- **Possible Possibles**
+- **Make, Walk Around In, and Change the Story**
+- **Machine Responses as Material for Evaluation**
+- **The Room Learns as It Receives Input**
+- **Invisible Ideas Become Visible and Manipulable**
+- **Co-active Emergence**
+
+These concepts span presentations, published Minecraft work, STEAMHAMLET, AI writing, and the 2025 co-active emergence article. Each is attached to its source and may then be explicitly related back to the dissertation taxonomy and forward to TurtleBlock architecture.
 
 ```text
 Dewey / Freire / Papert
@@ -126,7 +186,9 @@ Sanders dissertation document analysis + Dedoose coding
         ↓
 Critical Techno Constructivism
         ↓
-Minecraft / Purposeful Play / STEAMHAMLET
+Sanders-authored operational tools
+        ↓
+STEAMHAMLET / digital learning environments / Logo / Minecraft / Purposeful Play
         ↓
 Engaging with AI / Co-active Emergence
         ↓
@@ -158,6 +220,9 @@ Cloudflare D1 is being used intentionally as several **separate data domains**, 
 - source metrics
 - concept relationships
 - source passages and retrieval text
+- authored tools
+- tool questions and actions
+- explicit mappings between source research and later implementation
 
 ### Research-data lifecycle
 
@@ -197,7 +262,7 @@ TurtleBlock AI
 
 The project connects constructivist and constructionist learning, critical pedagogy, learner-centered computational environments, Minecraft as a microworld, and AI as a collaborator rather than a replacement for human thought.
 
-The public Research page traces this argument from Sanders’ childhood encounter with Logo through the dissertation, Minecraft scholarship, STEAMHAMLET, AI writing, and the present TurtleBlock implementation.
+The public Research page traces this argument from Sanders’ childhood encounter with Logo through the dissertation, its Dedoose coding methodology, authored CTC tools, Minecraft scholarship, STEAMHAMLET, AI writing, and the present TurtleBlock implementation.
 
 ## RAG, retrieval, and security
 
@@ -261,8 +326,9 @@ Created and researched by **[Dr. Bryan P. Sanders](https://read.bryansanders.com
 
 Right now the project is focused on:
 
-- activating and validating the full D1 persistence + research ontology schema in production
-- expanding the Sanders research ontology with exact source material and later scholarly lineage
+- applying and validating the complete D1 persistence + research ontology migrations in production
+- expanding the Sanders research ontology with exact source material, authored tools, and later scholarly lineage
+- using the original Dedoose structure as bounded retrieval metadata rather than flattening the corpus into prompt text
 - separating operational project-memory consent from research/dataset consent
 - moving Turtle from slash-command interactions into persistent Discord thread conversation
 - replacing narrow keyword parsing with structured LLM-proposed WorldSpec deltas plus deterministic validation
