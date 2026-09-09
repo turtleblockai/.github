@@ -1,249 +1,119 @@
-# 🐢🧱 TurtleBlock AI
+<p align="center">
+  <img src="./assets/turtleblock-playground.svg" alt="TurtleBlock AI playground" width="100%" />
+</p>
 
-**Constructivist AI agents for building, exploring, and iterating computational worlds in Minecraft and beyond.**
+<p align="center">
+  <strong>Build it. Walk through it. Notice what happened. Change it.</strong>
+</p>
 
-TurtleBlock AI is a public educational research and development project centered on learner agency, inquiry, construction, reflection, and human–machine collaboration.
+<p align="center">
+  🐢 TurtleBlock AI is a public educational research playground for humans, machines, ideas, blocks, questions, stories, worlds, mistakes, and revisions.
+</p>
 
-The goal is not an AI world vending machine. The learner remains the **designer and producer**. Turtle helps people represent ideas, clarify intentions, test possibilities, inhabit what they build, notice what happened, and revise.
+---
 
-> **Build it. Walk through it. Notice what happened. Change it.**
+## Pick a door 🚪
 
-TurtleBlock AI is the current executable form of a longer educational research program led by **Dr. Bryan P. Sanders**, connecting Critical Techno Constructivism, Minecraft learning environments, Purposeful Play, STEAMHAMLET, co-active emergence, WorldSpec, and conversational AI.
+| | | |
+|---|---|---|
+| 🐢 **[Talk with Turtle](https://turtleblockai.com/try/)** | 🌎 **[Explore WorldSpec](https://turtleblockai.com/worldspec/)** | 🔬 **[Enter Turtle Terraria](https://turtleblockai.com/lab/)** |
+| Start with an idea, not a prompt-engineering contest. | See how human meaning becomes inspectable, revisable representation. | Wander into the research habitats where interactions, artifacts, failures, and revisions become data. |
+| 📜 **[Read the Turtle Charter](https://turtleblockai.com/charter/)** | 🧠 **[Follow the research](https://turtleblockai.com/research/)** | 🛠️ **[Watch us build in public](https://turtleblockai.com/build/)** |
+| What Turtle may do, what Turtle should not quietly steal, and why disagreement matters. | Critical Techno Constructivism → Minecraft → Purposeful Play → STEAMHAMLET → Co-active Emergence → TurtleBlock AI. | Successes, reversals, weird edges, tests, and whatever the turtle knocked over today. |
 
-## Start here
+---
 
-- **Visit TurtleBlock AI:** https://turtleblockai.com/
-- **Talk with Turtle:** https://turtleblockai.com/try/
-- **Explore WorldSpec:** https://turtleblockai.com/worldspec/
-- **Read the Turtle Charter:** https://turtleblockai.com/charter/
-- **Read the research lineage + ontology:** https://turtleblockai.com/research/
-- **See the build log:** https://turtleblockai.com/build/
-- **Visit Turtle Lab:** https://turtleblockai.com/lab/
-- **Visit the platform repo:** https://github.com/turtleblockai/platform
+## This is not an AI world vending machine
 
-## The core loop
+The learner remains the **designer and producer**.
+
+Turtle may help interpret, question, compare, construct, test, remember project state, notice consequences, and propose possibilities. But the human keeps purpose, judgment, values, authorship, disagreement, reflection, and the right to change their mind.
 
 ```text
-learner language
-      ↓
+human purpose
+     ↓
 conversation with Turtle
-      ↓
-persistent WorldSpec
-      ↓
-construction
-      ↓
-inhabitation
-      ↓
-notice + consequence
-      ↓
-reflection
-      ↓
-revision ↺
+     ↓
+WorldSpec: an inspectable shared representation
+     ↓
+make / build / simulate / inhabit
+     ↓
+notice what actually happened
+     ↓
+reflect + disagree + revise
+     ↺
 ```
 
-TurtleBlock AI is deliberately designed around **participation rather than prompting**. A conversation should develop an idea over time, not merely turn a sentence into a finished artifact.
+The interesting part is not that a machine can make something.
 
-## WorldSpec
+The interesting part is what happens when a person and a machine can **make an idea visible enough to argue with it**.
 
-**WorldSpec** is the emerging representation layer between a learner’s idea, a conversation with Turtle, and a world that can be built, inhabited, tested, reflected upon, and revised.
+---
+
+## Things we believe strongly enough to put near the front door
+
+> **Participation over prompting.**
+
+> **Inquiry before predetermined outcomes.**
+
+> **The machine is material for thinking, not an oracle.**
+
+> **Interesting failure may remain visible.**
+
+> **Human correction must not be rewritten as machine foresight.**
+
+> **Poetic, cultural, emotional, political, spatial, narrative, and weird meaning does not disappear because a parser lacks a box for it.**
+
+> **“I don’t know yet” is a feature.**
+
+---
+
+## WorldSpec 🌎
+
+WorldSpec is the representation layer between **what somebody means** and **what a computational environment can actually do**.
+
+It is intentionally provisional and revisable.
 
 ```text
-learner intent → dialogue → WorldSpec → build → inhabit → notice → reflect → revise ↺
+"make the courtyard less authoritarian"
+            ↓
+not a geometry command yet
+            ↓
+Turtle exposes an interpretation
+            ↓
+learner keeps / changes / questions it
+            ↓
+WorldSpec revision with provenance
+            ↓
+construction + experience + reflection
 ```
 
-WorldSpec is being developed in public with an expanding schema, lexicon, grammar, syntax, hostile test cases, interpreter, provenance model, and persistent revision history.
+A central rule is **lossless before normalized**: preserve the learner's original language before trying to squeeze it into machine categories.
 
-A central rule is **lossless before normalized**: the learner’s original language is preserved even when Turtle cannot yet fully classify it. Poetic, symbolic, emotional, spatial, cultural, narrative, ambiguous, and deliberately strange language should not disappear simply because a parser lacks a category for it.
+---
 
-WorldSpec also distinguishes learner statements from Turtle interpretations, manual edits, world observations, corrections, and later revisions so machine inference is never quietly represented as learner authorship.
+## Turtle Terraria 🔬🐢
 
-## Turtle Charter
+Turtle Terraria is the umbrella research environment: bounded habitats where people, computational agents, representations, artifacts, questions, and worlds can cohabit long enough for change to become visible.
 
-The **Turtle Charter** is the behavioral constitution for the agent.
+Two early habitats:
 
-Turtle may contribute information, possibilities, questions, patterns, consequences, comparisons, interpretations, prototypes, and technical assistance. It should not quietly take ownership of the learner’s purpose, meaning, judgment, values, decisions, authorship, reflection, disagreement, or right to change their mind.
+### 🧑 + 🐢 Human + Turtle
+Human-driven inquiry, construction, correction, reflection, disagreement, and revision.
 
-Among its operating principles:
+### 🐢 ↔ 🐢 Recursive Turtle
+Explicitly synthetic self-play for critique, hostile cases, regression, representation testing, and ontology questions.
 
-- conversation before command when meaning is ambiguous
-- reversible proposals over silent assumptions
-- inquiry before predetermined outcomes
-- disagreement is data
-- manual learner edits are authored state
-- interesting failure may remain visible
-- semantic words are hypotheses, not universal geometry
-- memory supports continuity, not destiny
-- Turtle may say **“I don’t know yet”**
+Synthetic Turtle activity is **never human-learning evidence** and never gains production authority by agreeing with itself. Two turtles in a trench coat are still two turtles in a trench coat.
 
-## Persistent Turtle conversations
+---
 
-Turtle is evolving from a one-shot interpreter into a persistent conversational collaborator.
+## The research roots are not decorative roots 🌱
 
-Web and Discord interactions can share an evolving project state in which:
-
-- a Turtle session has a stable identity
-- learner and Turtle turns are stored separately
-- the same WorldSpec is revised rather than regenerated
-- every revision carries provenance
-- private operational memory remains separate from public publication
-
-The preferred Discord experience is a dedicated **Turtle Lab thread** in which a learner begins with `/turtle` and then continues ordinary conversation while the same project and WorldSpec evolve underneath it.
-
-## Dr. Bryan P. Sanders TurtleBlock AI research ontology
-
-The project includes a formal scholarly knowledge layer:
-
-**`Dr_Bryan_P_Sanders_TurtleBlockAI_Taxonomy`**
-
-Public academic language: **the Dr. Bryan P. Sanders TurtleBlock AI research ontology**.
-
-This is not an AI-generated taxonomy assembled after the fact. Its foundation comes directly from Sanders’ 2019 Ed.D. dissertation, *Toward a Unified Computer Learning Theory: Critical Techno Constructivism*.
-
-### From dissertation coding to computational ontology
-
-The dissertation used document analysis across selected passages from **John Dewey, Paulo Freire, and Seymour Papert**. The excerpts were imported into **Dedoose**, where a literature-derived code system was applied and later examined through frequencies and code co-occurrences.
-
-The original 17 Dedoose codes are preserved **exactly as written**:
-
-1. Abstractions
-2. Banking Model
-3. Connectivism
-4. Constructivism
-5. Discovery Learning
-6. Engagement
-7. Freedom and Individuality
-8. Institutional Change
-9. Isolated Curricula
-10. Observations on Life Itself
-11. Oppression
-12. Pedagogy
-13. Predetermined Outcomes
-14. Problem Posing Education
-15. Shared Democracy
-16. Social Impact
-17. Theory
-
-That tagging work is useful again. Instead of leaving the dissertation as a static PDF or asking an LLM to infer a theory from hundreds of pages every time, TurtleBlock AI can use the original codes as a **structured scholarly retrieval vocabulary**.
-
-```text
-2019 Dedoose coding
-        ↓
-source passages + precepts + frequencies + co-occurrences
-        ↓
-later Sanders-authored concepts and tools
-        ↓
-Turtle Charter + WorldSpec mappings
-        ↓
-bounded retrieval for Turtle
-```
-
-The ontology does **not** rewrite the dissertation taxonomy. Original terminology, theoretical-precept mappings, source metrics, co-occurrences, and source passages remain a source layer. Later TurtleBlock concepts are added through explicit, versioned relationships.
-
-## Sanders-authored operational tools
-
-The ontology now distinguishes **theory** from **an authored tool for using the theory**.
-
-Sanders’ *Tenets of Critical Techno Constructivism with Suggestions for Operationalizing the Theory* is represented as an authored operational framework with seven **Tenet → Question → Action** structures:
-
-1. **Personal Inquiry**
-2. **Compelling Problem or Question**
-3. **Technology as Tool to Think With**
-4. **Formative Demonstration of Learning**
-5. **Reflection as Learning**
-6. **Social and Cultural Critique**
-7. **Sharing and Collaborating**
-
-This allows Turtle eventually to retrieve not only a theoretical concept such as **Problem Posing Education** or **Shared Democracy**, but also a Sanders-authored pedagogical move that operationalizes it.
-
-That distinction matters:
-
-```text
-Dedoose code ≠ authored tool ≠ later publication ≠ Turtle behavior
-```
-
-They can be connected, but provenance keeps them intellectually separate.
-
-## Longitudinal research lineage
-
-The ontology now also tracks later Sanders-authored concepts such as:
-
-- **Learner as Designer and Producer**
-- **Tune Into and Tap Into Learner Meaning-Making**
-- **Co-construct the Curriculum**
-- **Possible Possibles**
-- **Make, Walk Around In, and Change the Story**
-- **Machine Responses as Material for Evaluation**
-- **The Room Learns as It Receives Input**
-- **Invisible Ideas Become Visible and Manipulable**
-- **Co-active Emergence**
-
-These concepts span presentations, published Minecraft work, STEAMHAMLET, AI writing, and the 2025 co-active emergence article. Each is attached to its source and may then be explicitly related back to the dissertation taxonomy and forward to TurtleBlock architecture.
+TurtleBlock AI grows from a longer educational research program by **Dr. Bryan P. Sanders**.
 
 ```text
 Dewey / Freire / Papert
-        ↓
-Sanders dissertation document analysis + Dedoose coding
-        ↓
-Critical Techno Constructivism
-        ↓
-Sanders-authored operational tools
-        ↓
-STEAMHAMLET / digital learning environments / Logo / Minecraft / Purposeful Play
-        ↓
-Engaging with AI / Co-active Emergence
-        ↓
-Turtle Charter + WorldSpec
-        ↓
-TurtleBlock AI
-```
-
-This gives Turtle a research ontology rather than an AI-invented taxonomy and provides a traceable scholarly basis for future retrieval, explanation, and system behavior.
-
-## D1 knowledge + persistence architecture
-
-Cloudflare D1 is being used intentionally as several **separate data domains**, rather than as one giant chat dump.
-
-### Operational memory
-
-- Turtle sessions
-- learner and Turtle turns
-- WorldSpec revision history
-- provenance
-- Discord/web context
-
-### Research ontology
-
-- ontology versions
-- scholarly sources
-- exact source concepts
-- theoretical precepts
-- source metrics
-- concept relationships
-- source passages and retrieval text
-- authored tools
-- tool questions and actions
-- explicit mappings between source research and later implementation
-
-### Research-data lifecycle
-
-- raw Playground submissions
-- automated screening
-- redacted candidate records
-- human review state
-- explicit dataset approval state
-
-### Public Turtle Lab
-
-Public artifacts are a separate publication projection. Raw private conversation is not automatically made public.
-
-The architecture intentionally separates **remembering a learner’s project** from **using material for research or dataset development**.
-
-## Research lineage
-
-TurtleBlock AI grows from a longer body of educational research and practice:
-
-```text
-Logo + Papert
         ↓
 Critical Techno Constructivism
         ↓
@@ -255,87 +125,79 @@ STEAMHAMLET
         ↓
 Engaging with AI
         ↓
-Co-active emergence
+Co-active Emergence
+        ↓
+WorldSpec + Turtle Charter + Turtle Terraria
         ↓
 TurtleBlock AI
 ```
 
-The project connects constructivist and constructionist learning, critical pedagogy, learner-centered computational environments, Minecraft as a microworld, and AI as a collaborator rather than a replacement for human thought.
+The project also preserves the dissertation's original Dedoose research coding as an immutable scholarly source layer, then connects later Sanders-authored concepts and operational tools through explicit provenance rather than retroactively rewriting the dissertation.
 
-The public Research page traces this argument from Sanders’ childhood encounter with Logo through the dissertation, its Dedoose coding methodology, authored CTC tools, Minecraft scholarship, STEAMHAMLET, AI writing, and the present TurtleBlock implementation.
+The seven established Critical Techno Constructivism operational domains remain:
 
-## RAG, retrieval, and security
+`Personal Inquiry` · `Compelling Problem or Question` · `Technology as Tool to Think With` · `Formative Demonstration of Learning` · `Reflection as Learning` · `Social and Cultural Critique` · `Sharing and Collaborating`
 
-TurtleBlock AI does not treat retrieved material as authority merely because it was retrieved.
-
-The architecture distinguishes:
-
-- **trusted behavioral instruction** — Turtle Charter and system action policy
-- **trusted representation architecture** — WorldSpec rules and validators
-- **retrieved scholarly context** — the Sanders research ontology and source writings
-- **untrusted project data** — learner text, conversation history, retrieved documents, Minecraft signs/books, and previous model output
-
-Turtle may use an LLM to interpret and converse, but structured WorldSpec changes and later world mutations are intended to pass deterministic validation before execution.
-
-## Turtle Lab
-
-**Turtle Lab** is the public research edge of the project: build notes, field tests, learner-approved projects, WorldSpec artifacts, reflections, and selected dialogue.
-
-The governing idea is:
-
-```text
-private dialogue → persistent WorldSpec → learner chooses what to publish → curated public artifact
-```
-
-This is deliberately different from publishing a raw Discord feed or treating every interaction as research data.
-
-## Build in public
-
-This is deliberately a functional research playground — **building the ship while flying the ship**.
-
-The code, architecture, mistakes, language, assumptions, tests, reversals, and revisions stay visible so the platform itself can become part of the inquiry.
-
-Meaningful architecture, pedagogy, integration, WorldSpec, and research-data milestones are intended to enter the public build record rather than disappearing as invisible engineering work.
-
-## RE/EDUCATION
-
-TurtleBlock AI is connected to the educational practice, credentialed teacher work, school-based R&D, and ongoing research of **RE/EDUCATION**.
-
-RE/EDUCATION provides a practical setting in which educational practice, school design, scholarship, and technical R&D can remain part of the same program of inquiry.
-
-- https://reeducationllc.com
-
-## STEAMHAMLET
-
-STEAMHAMLET is the earlier “room of possibilities” behind TurtleBlock AI — a long-running effort to imagine shared environments where ideas and informational objects can be moved, changed, scaled, remixed, juxtaposed, tested, and revised.
-
-TurtleBlock AI increasingly makes that earlier imagined room executable: language becomes structured but revisable representation; representation becomes an inhabitable environment; experience returns to the representation as reflection and revision.
-
-- https://steamhamlet.com
-
-## Creator / steward
-
-Created and researched by **[Dr. Bryan P. Sanders](https://read.bryansanders.com)**.
-
-- GitHub: https://github.com/nayrbgo
-- ORCID: https://orcid.org/0000-0001-6866-7280
-- Public handle/search: [@nayrbgo](https://www.google.com/search?q=nayrbgo)
-- Writing and research: https://read.bryansanders.com
-
-## Current edge
-
-Right now the project is focused on:
-
-- applying and validating the complete D1 persistence + research ontology migrations in production
-- expanding the Sanders research ontology with exact source material, authored tools, and later scholarly lineage
-- using the original Dedoose structure as bounded retrieval metadata rather than flattening the corpus into prompt text
-- separating operational project-memory consent from research/dataset consent
-- moving Turtle from slash-command interactions into persistent Discord thread conversation
-- replacing narrow keyword parsing with structured LLM-proposed WorldSpec deltas plus deterministic validation
-- hardening WorldSpec provenance, semantics, grammar, hostile cases, and revision behavior
-- connecting the first controlled Minecraft construction adapter
-- feeding world changes, learner reactions, and reflection back into the same persistent project history
+If something important does not fit, we preserve the residue instead of bullying it into a category. The machine may notice a possible eighth thing. The human scholar gets to decide whether it becomes one.
 
 ---
 
-**TurtleBlock AI** is experimental, public, recursive, research-grounded, and intentionally unfinished. That is part of the point.
+## Fresh from the workshop 🛠️
+
+The project is built in public. That means the record includes things that worked, things that broke, ideas we rejected, tests we added, assumptions we changed, and questions that are currently tugging at the edge.
+
+The **Build Log** records completed work.
+
+The **Next Edge** points beyond it with one live research question plus a little cloud of Possible Possibles and one deliberately unruly X-factor:
+
+> `whoooo knooooowwwssssssssssss`
+
+That is not a roadmap-management framework. It is an anti-boredom device.
+
+---
+
+## Want the workshop instead of the porch?
+
+<p align="center">
+  <strong>→ <a href="https://github.com/turtleblockai/platform">github.com/turtleblockai/platform</a> ←</strong>
+</p>
+
+That repository contains the actual Worker, WorldSpec artifacts, Turtle behavior, migrations, research ontology, Turtle Terraria architecture, daily build traces, tests, and public site.
+
+Or skip the machinery and go make something:
+
+<p align="center">
+  <strong>🐢 <a href="https://turtleblockai.com/try/">turtleblockai.com/try/</a></strong>
+</p>
+
+---
+
+<details>
+<summary><strong>🐇 Deeper rabbit holes</strong></summary>
+
+### Turtle Charter
+The behavioral constitution for the agent: learner agency, reversible proposals, explicit uncertainty, provenance, disagreement, reflection, and human judgment.
+
+### Sanders research ontology
+A versioned research structure connecting the immutable dissertation Dedoose layer, later Sanders-authored concepts, operational CTC tools, WorldSpec, Turtle Charter, and Turtle behavior.
+
+### Persistent project context
+Turtle can preserve project continuity without turning persistence into destiny, authorship theft, or automatic publication. Remembering a project is not permission to use it as research evidence.
+
+### Privacy + provenance
+Human intention, Turtle interpretation, machine-generated self-play, scholarly source material, WorldSpec state, world observation, and later ontology mapping may coexist. They should never masquerade as the same thing.
+
+### STEAMHAMLET
+An earlier “room of possibilities” where informational objects could be moved, remixed, juxtaposed, tested, and revised. TurtleBlock increasingly makes that imagined room executable.
+
+### RE/EDUCATION
+The educational practice and R&D environment connected to the project.
+
+</details>
+
+---
+
+<p align="center">
+  <em>Experimental. Recursive. Research-grounded. Intentionally unfinished.</em><br/>
+  <strong>Come make a mess worth thinking about. 🐢🧱</strong>
+</p>
