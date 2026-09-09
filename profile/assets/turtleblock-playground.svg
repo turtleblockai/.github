@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">TurtleBlock AI playground</title>
+  <desc id="desc">A playful diagram of humans, turtles, ideas, blocks, questions, worlds, and revisions orbiting a shared making space.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#132238"/>
+      <stop offset="0.55" stop-color="#173f3a"/>
+      <stop offset="1" stop-color="#4b351f"/>
+    </linearGradient>
+    <filter id="soft"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-opacity="0.25"/></filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <g opacity="0.15" stroke="#d7ffe6" stroke-width="1">
+    <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200"/>
+    <path d="M100 0V420M200 0V420M300 0V420M400 0V420M500 0V420M600 0V420M700 0V420M800 0V420M900 0V420M1000 0V420M1100 0V420"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
+    <text x="600" y="76" font-size="42" font-weight="700" fill="#ffffff">TURTLEBLOCK AI</text>
+    <text x="600" y="110" font-size="18" fill="#d7ffe6">a playground for humans + machines + ideas that refuse to sit still</text>
+
+    <g filter="url(#soft)">
+      <rect x="405" y="145" width="390" height="155" rx="26" fill="#fff8df"/>
+      <text x="600" y="194" font-size="27" font-weight="700" fill="#17352f">MAKE A THING</text>
+      <text x="600" y="228" font-size="21" fill="#17352f">walk around in it</text>
+      <text x="600" y="258" font-size="21" fill="#17352f">notice what happened</text>
+      <text x="600" y="288" font-size="21" font-weight="700" fill="#17352f">CHANGE IT ↺</text>
+    </g>
+
+    <g font-size="18" font-weight="700">
+      <rect x="75" y="155" width="190" height="54" rx="18" fill="#bfe8ff"/><text x="170" y="189" fill="#18334a">HUMAN PURPOSE</text>
+      <rect x="86" y="265" width="168" height="54" rx="18" fill="#d9ffc9"/><text x="170" y="299" fill="#21401f">🐢 TURTLE</text>
+      <rect x="920" y="145" width="205" height="54" rx="18" fill="#ffe1a8"/><text x="1022" y="179" fill="#543517">WORLDS + BLOCKS</text>
+      <rect x="931" y="260" width="185" height="54" rx="18" fill="#f4c8ff"/><text x="1023" y="294" fill="#4d2356">QUESTIONS ???</text>
+    </g>
+
+    <g fill="none" stroke="#fff8df" stroke-width="4" stroke-linecap="round" opacity="0.9">
+      <path d="M270 180 C335 180 330 190 397 205"/>
+      <path d="M260 290 C335 290 340 275 397 260"/>
+      <path d="M803 205 C865 190 865 175 912 175"/>
+      <path d="M803 260 C870 270 875 286 923 286"/>
+    </g>
+    <g fill="#fff8df" font-size="23">
+      <text x="325" y="173">→</text><text x="327" y="305">→</text><text x="866" y="180">→</text><text x="875" y="304">→</text>
+    </g>
+
+    <text x="600" y="354" font-size="18" fill="#ffffff">learner agency · constructionism · Critical Techno Constructivism · purposeful play · co-active emergence</text>
+    <text x="600" y="386" font-size="16" fill="#b9d9cf">no prompting contest required • participation encouraged • weird ideas welcome</text>
+  </g>
+</svg>
